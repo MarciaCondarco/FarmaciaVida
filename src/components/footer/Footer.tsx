@@ -5,7 +5,9 @@ function Footer() {
       <>
         <div
           className=" bg-lime-200 py-20"
-        ></div>
+        >
+          <p>footer</p>
+        </div>
       </>
     )
 }

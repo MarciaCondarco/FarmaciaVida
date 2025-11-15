@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 function Navbar() {
     return (
@@ -9,9 +9,11 @@ function Navbar() {
                 <div
                     className=""
                 >
+                    <Link to='/home' className="text-2xl font-bold">
                     <img src="https://i.imgur.com/G7WFsPp.png" alt="imagem da logo da farmacia VIDA"
                         className="w-15 h-15"
                     />
+                    </Link>
                 </div>
 
                 {/* botões */}
