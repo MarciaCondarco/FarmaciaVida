@@ -1,0 +1,14 @@
+import Home from "./assets/pages/home/Home"
+import Navbar from "./components/navbar/Navbar"
+
+function App() {
+
+  return (
+    <>
+    <Navbar />
+    <Home />
+    </>
+  )
+}
+
+export default App
