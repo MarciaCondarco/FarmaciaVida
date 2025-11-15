@@ -9,12 +9,14 @@ function Navbar() {
                 <div
                     className=""
                 >
-                    <img src="https://imgur.com/G7WFsPp" alt="imagem da logo da farmacia VIDA" />
+                    <img src="https://i.imgur.com/G7WFsPp.png" alt="imagem da logo da farmacia VIDA"
+                        className="w-15 h-15"
+                    />
                 </div>
 
                 {/* botões */}
                 <div
-                    className="flex justify-center gap-8"
+                    className="flex justify-center gap-10 items-center"
                 >
                     <a href="#">Historico</a> 
                     <a href="#">Categoria</a>
