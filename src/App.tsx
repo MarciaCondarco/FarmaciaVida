@@ -3,6 +3,12 @@ import Home from "./assets/pages/home/Home"
 import Footer from "./components/footer/Footer"
 import Navbar from "./components/navbar/Navbar"
 import Produto from "./assets/pages/product/Produto"
+import Categoria from "./assets/pages/categoria/Categoria"
+import Historico from "./assets/pages/historico/Historico"
+import Carrinho from "./assets/pages/carrinho/Carrinho"
+import Finalizacao from "./assets/pages/finalizacao/Finalizacao"
+
+
 
 function App() {
 
@@ -15,6 +21,10 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
               <Route path="/produto" element={<Produto />} />
+              <Route path="/categoria" element={<Categoria />} />
+              <Route path="/historico" element={<Historico />} />
+              <Route path="/carrinho" element={<Carrinho />} />
+              <Route path="/finalizacao" element={<Finalizacao />} />
             </Routes>
           </div>
         <Footer />

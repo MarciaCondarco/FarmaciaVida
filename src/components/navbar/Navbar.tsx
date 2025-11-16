@@ -17,13 +17,17 @@ function Navbar() {
                 </div>
 
                 {/* botões */}
-                <div
-                    className="flex justify-center gap-10 items-center"
+                <div className="flex justify-center gap-10 items-center"
                 >
-                    <a href="#">Historico</a> 
-                    <a href="#">Categoria</a>
-                    <a href="#">Promoção</a>
-                    <a href="#">Carrinho</a>
+                    <Link to="/historico">
+                        Historico
+                    </Link>
+                    <Link to="/categoria">
+                        Categoria
+                    </Link>
+                    <Link to="/carrinho">
+                        Carrinho
+                    </Link>
                 </div>
             </div>
         </>
