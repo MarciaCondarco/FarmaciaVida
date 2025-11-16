@@ -7,6 +7,8 @@ import Categoria from "./assets/pages/categoria/Categoria"
 import Historico from "./assets/pages/historico/Historico"
 import Carrinho from "./assets/pages/carrinho/Carrinho"
 import Finalizacao from "./assets/pages/finalizacao/Finalizacao"
+import ListaPromocao from "./components/promocao/listapromocao/ListaPromocao"
+import ListaHistorico from "./components/historico/listahistorico/ListaHistorico"
 
 
 
@@ -25,6 +27,8 @@ function App() {
               <Route path="/historico" element={<Historico />} />
               <Route path="/carrinho" element={<Carrinho />} />
               <Route path="/finalizacao" element={<Finalizacao />} />
+              <Route path="/promocao" element={<ListaPromocao />} />
+              <Route path="/listahistorico" element={<ListaHistorico />} />
             </Routes>
           </div>
         <Footer />
