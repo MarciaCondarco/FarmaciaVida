@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import ListaPromocao from "../../../components/promocao/listapromocao/ListaPromocao"
 
-function Produto() {
+function ProdutoPage() {
     return (
         <>
             {/* div com categoria */}
@@ -59,4 +59,4 @@ function Produto() {
     ) 
 }
 
-export default Produto
+export default ProdutoPage

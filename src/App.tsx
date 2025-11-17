@@ -1,14 +1,14 @@
-import { BrowserRouter, Route,Routes } from "react-router-dom"
-import Home from "./assets/pages/home/Home"
-import Footer from "./components/footer/Footer"
-import Navbar from "./components/navbar/Navbar"
-import Produto from "./assets/pages/product/Produto"
-import Categoria from "./assets/pages/categoria/Categoria"
-import Historico from "./assets/pages/historico/Historico"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Carrinho from "./assets/pages/carrinho/Carrinho"
+import Categoria from "./assets/pages/categoria/Categoria"
 import Finalizacao from "./assets/pages/finalizacao/Finalizacao"
-import ListaPromocao from "./components/promocao/listapromocao/ListaPromocao"
+import Historico from "./assets/pages/historico/Historico"
+import Home from "./assets/pages/home/Home"
+import ProdutoPage from "./assets/pages/product/ProdutoPage"
+import Footer from "./components/footer/Footer"
 import ListaHistorico from "./components/historico/listahistorico/ListaHistorico"
+import Navbar from "./components/navbar/Navbar"
+import ListaPromocao from "./components/promocao/listapromocao/ListaPromocao"
 
 
 
@@ -22,7 +22,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
-              <Route path="/produto" element={<Produto />} />
+              <Route path="/produto" element={<ProdutoPage />} />
               <Route path="/categoria" element={<Categoria />} />
               <Route path="/historico" element={<Historico />} />
               <Route path="/carrinho" element={<Carrinho />} />
