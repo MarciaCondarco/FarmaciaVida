@@ -9,6 +9,9 @@ import Footer from "./components/footer/Footer"
 import ListaHistorico from "./components/historico/listahistorico/ListaHistorico"
 import Navbar from "./components/navbar/Navbar"
 import ListaPromocao from "./components/promocao/listapromocao/ListaPromocao"
+import Login from "./assets/pages/login/Login"
+import Cadastro from "./assets/pages/cadastrar/Cadastro"
+
 
 
 
@@ -29,6 +32,8 @@ function App() {
               <Route path="/finalizacao" element={<Finalizacao />} />
               <Route path="/promocao" element={<ListaPromocao />} />
               <Route path="/listahistorico" element={<ListaHistorico />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/cadastro" element={<Cadastro />} />
             </Routes>
           </div>
         <Footer />

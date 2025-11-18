@@ -1,5 +1,4 @@
 import { BabyIcon, HighlighterCircleIcon, PillIcon, ShowerIcon, StethoscopeIcon } from "@phosphor-icons/react"
-import ListaPromocao from "../../../components/promocao/listapromocao/ListaPromocao"
 
 function Home() {
     return (
@@ -44,7 +43,7 @@ function Home() {
                 </div>
             </div>
 
-            <ListaPromocao />
+            {/* <ListaPromocao /> */}
         </>
     )
 }

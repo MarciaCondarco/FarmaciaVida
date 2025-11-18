@@ -28,6 +28,9 @@ function Navbar() {
                     <Link to="/carrinho">
                         Carrinho
                     </Link>
+                    <Link to="/login">
+                        Login
+                    </Link>
                 </div>
             </div>
         </>
